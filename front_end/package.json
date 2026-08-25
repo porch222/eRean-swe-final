@@ -1,0 +1,26 @@
+{
+  "name": "erean-frontend",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "audit": "node scripts/audit-imports.mjs src && node scripts/audit-undefined.mjs src"
+  },
+  "dependencies": {
+    "@fontsource-variable/fraunces": "5.2.9",
+    "@fontsource-variable/inter": "5.2.8",
+    "@fontsource/ibm-plex-mono": "5.2.7",
+    "bootstrap": "5.3.8",
+    "bootstrap-icons": "1.13.1",
+    "react": "19.2.7",
+    "react-dom": "19.2.7",
+    "react-router-dom": "7.17.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "6.0.2",
+    "vite": "8.0.16"
+  }
+}

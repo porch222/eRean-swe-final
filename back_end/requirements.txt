@@ -1,0 +1,22 @@
+# eRean backend dependencies.
+# Every version is pinned exactly and was released at least two months
+# before 2026-08-05. Django is 5.2 LTS rather than 6.0 because 6.0
+# requires Python >= 3.12 and this project targets Python 3.10.
+
+Django==5.2.11
+djangorestframework==3.17.1
+djangorestframework-simplejwt==5.5.1
+django-filter==25.2
+django-cors-headers==4.9.0
+django-environ==0.13.0
+psycopg2-binary==2.9.12
+pillow==12.2.0
+
+# Testing
+pytest==9.0.3
+pytest-django==4.12.0
+
+# Deployment
+gunicorn==26.0.0
+whitenoise==6.12.0
+dj-database-url==3.1.2
